@@ -1,65 +1,71 @@
 # RAG Policy Assistant
 
-This project builds a Retrieval-Augmented Generation (RAG) system for company policy Q&A.
-It embeds policy documents, retrieves relevant chunks, and uses Claude Sonnet to generate
-grounded answers with sources and confidence.
+Retrieval-Augmented Generation (RAG) system for company policy Q&A: embedding → vector storage → retrieval → LLM generation. Includes a Python CLI (Claude + ChromaDB) and an optional Next.js UI (OpenAI or local Ollama).
 
-## Overview
-- Embeds policy documents using `all-MiniLM-L6-v2`
-- Stores vectors in ChromaDB (cosine similarity)
-- Retrieves top-5 chunks by default
-- Generates answers with two prompt versions (V1 baseline, V2 improved)
-- Provides source attribution and confidence scores in V2
+---
 
-## Setup
-1) Install dependencies:
-   `pip install -r requirements.txt`
-2) Create `.env` from `.env.template` and add your API key.
-3) Run the demo: `python demo.py`
+## Deliverables
 
-## Web UI (Next.js + OpenAI)
-There is a minimal Next.js UI in `web/` with an API route that uses OpenAI for
-embeddings and answer generation.
+- **Source code:** `rag_system.py`, `evaluation.py`, `demo.py`, `data/`, and `web/` (Next.js UI).
+- **README:** This file (setup, architecture, prompts, evaluation, trade-offs).
+- **Optional:** Comparison between two prompt versions (V1 vs V2) via `python evaluation.py`.
 
-### Run locally
-1) `cd web`
-2) `npm install`
-3) Create `.env.local` from `.env.local.example` and set `OPENAI_API_KEY`
-4) `npm run dev`
+---
 
-### Deploy to Vercel (via GitHub)
-1) Push this repo to GitHub (see [GitHub + Vercel](#github--vercel) below).
-2) Go to [vercel.com](https://vercel.com) → **Add New** → **Project** → Import your GitHub repo.
-3) Set **Root Directory** to `web` (click Edit, enter `web`, then Continue).
-4) Add environment variable: `OPENAI_API_KEY` = your OpenAI API key.
-5) Click **Deploy**. Your app will be live at `https://your-project.vercel.app`.
+## 1. Setup instructions
 
-### GitHub + Vercel
-- **Connect to GitHub:** In the project folder run:
-  ```bash
-  git init
-  git add .
-  git commit -m "Initial commit: RAG policy assistant + Next.js UI"
-  git branch -M main
-  git remote add origin https://github.com/YOUR_USERNAME/rag-assignment.git
-  git push -u origin main
-  ```
-  (Create the repo `rag-assignment` on GitHub first: **New repository** → name it `rag-assignment` → Create, then use its URL above.)
-- **Vercel:** After pushing, in Vercel import the repo, set Root Directory to `web`, add `OPENAI_API_KEY`, and deploy.
+### Python CLI (core RAG)
 
-## Architecture
-```
-Documents -> Chunking -> Embeddings -> ChromaDB -> Retrieval -> Prompt -> Claude -> Answer
+```bash
+# From repo root
+pip install -r requirements.txt
+cp .env.template .env
+# Edit .env and set ANTHROPIC_API_KEY=
+python demo.py
 ```
 
-## Chunk Size Rationale (512 characters)
-512 characters balances semantic coherence with retrieval precision. It is short enough
-for specific policy details and long enough to preserve context. In testing 256/512/1024,
-512 produced the best relevance with minimal loss of detail.
+- **Interactive CLI:** `python rag_system.py`
+- **Evaluation (V1 vs V2):** `python evaluation.py`
 
-## Prompt Engineering
+### Optional: Web UI
+
+```bash
+cd web
+npm install
+cp .env.local.example .env.local
+# Edit .env.local: either OPENAI_API_KEY= or Ollama (see web/OLLAMA.md)
+npm run dev
+```
+
+Open http://localhost:3000. For **free local LLM** (no API quota), use Ollama: see [web/OLLAMA.md](web/OLLAMA.md).
+
+---
+
+## 2. Architecture overview
+
+```
+Policy docs (data/*.txt)
+    → DocumentChunker (512 chars, 50 overlap, sentence boundaries)
+    → RAGRetriever (SentenceTransformer all-MiniLM-L6-v2 + ChromaDB cosine)
+    → Top-k retrieval (default 5)
+    → PromptEngineer (V1 or V2 prompt)
+    → LLM (Claude in Python; OpenAI or Ollama in web)
+    → Answer + sources + confidence
+```
+
+- **Chunking:** 512 characters with 50-character overlap; breaks at sentence boundaries and preserves section headers.
+- **Embeddings:** all-MiniLM-L6-v2 (Python) or OpenAI/Ollama embeddings (web).
+- **Vector store:** ChromaDB (Python) or in-memory with OpenAI/Ollama (web).
+- **Prompts:** V1 baseline vs V2 improved (explicit grounding, structured output, source citation, confidence).
+
+---
+
+## 3. Prompts used
 
 ### V1 (Baseline)
+
+- Simple instruction; no structure; known to allow hallucinations and missing citations.
+
 ```
 You are a helpful customer service assistant. Answer the following question
 based on the provided policy documents.
@@ -72,9 +78,10 @@ Policy Documents:
 Answer:
 ```
 
-**Known issues:** can hallucinate, lacks citations, weak edge-case handling.
-
 ### V2 (Improved)
+
+- Explicit grounding, structured XML output, required source citation and confidence; reduces hallucinations.
+
 ```
 <instructions>
 1) Answer using ONLY the provided policy documents.
@@ -97,40 +104,74 @@ Answer:
 </response>
 ```
 
-**Improvements:** explicit grounding, structured output, citations, and graceful handling
-of unanswerable questions. This reduces hallucinations and increases traceability.
+---
 
-## Evaluation Results
-Run: `python evaluation.py`
+## 4. Evaluation results
 
-Expected outcomes:
+Run the comparison:
+
+```bash
+python evaluation.py
+```
+
+- **Test set:** 8 questions (2 direct, 2 partial, 1 multi-doc, 2 unanswerable, 1 edge).
+- **Scoring:** Correct / Partial / Incorrect; hallucination check for unanswerable.
+
+Expected (approximate):
 
 | Prompt | Correct | Partial | Incorrect | Hallucinations |
-| --- | --- | --- | --- | --- |
-| V1 | ~50-60% | Some | Some | Some |
-| V2 | ~75-90% | Few | Few | 0 |
+|--------|---------|---------|-----------|-----------------|
+| V1     | ~50–60% | Some    | Some      | Some            |
+| V2     | ~75–90% | Few     | Few       | 0               |
 
-## Key Design Decisions
-- Embeddings: `all-MiniLM-L6-v2` for speed and strong retrieval quality
-- Vector DB: ChromaDB for local, simple persistence
-- LLM: Claude Sonnet for high-quality responses
+Results depend on API/model; the script prints per-question output and a summary.
 
-## Trade-offs & Limitations
-- Embedding-only retrieval can miss nuanced matches
-- No reranking layer (yet)
-- Evaluation rubric is simple and keyword-based
+---
 
-## Future Improvements
-- Add cross-encoder reranking for complex queries
-  - Bi-encoder -> top-20 -> cross-encoder -> top-5 -> LLM
-  - Expected +10-15% accuracy on challenging questions
+## 5. Key trade-offs and improvements with more time
 
-## What I'm Proud Of
-Systematic prompt iteration with measurable improvements and zero hallucinations in V2.
+**Trade-offs**
 
-## Files
-- `rag_system.py`: chunker, retriever, prompt engineer, pipeline
-- `evaluation.py`: test suite and prompt comparison
-- `demo.py`: quick demo
-- `data/`: policy documents
-- `QUICKSTART.md`, `PROMPT_ENGINEERING.md`: docs
+- **Embedding-only retrieval:** Fast and simple but can miss nuanced matches; a reranking step would help.
+- **Chunk size 512:** Good balance for this corpus; other docs might need tuning.
+- **Evaluation:** Keyword/semantic rubric rather than full human judgment.
+- **Web stack:** Uses OpenAI/Ollama; Python stack uses Claude + ChromaDB (different code paths).
+
+**Improvements with more time**
+
+1. **Reranking:** Bi-encoder → top-20 → cross-encoder → top-5 → LLM for better accuracy on complex questions.
+2. **Prompt templating:** LangChain/LangGraph for versioned, reusable prompts.
+3. **Output schema:** Validate LLM output (e.g. JSON schema) for answer/sources/confidence.
+4. **Logging/tracing:** Basic request IDs and latency per stage (chunk, embed, retrieve, generate).
+5. **Unified backend:** Single RAG API (e.g. FastAPI) consumed by both Python and web front end.
+
+---
+
+## Pushing to GitHub
+
+1. Create a new repository on GitHub (e.g. `rag-assignment`); leave it empty (no README/.gitignore).
+2. From the project root:
+
+```bash
+git remote add origin https://github.com/YOUR_USERNAME/rag-assignment.git
+git push -u origin main
+```
+
+(If you already have a remote, use `git remote set-url origin ...` or add and push as above.)
+
+3. Optional Vercel deploy: import the repo, set **Root Directory** to `web`, add `OPENAI_API_KEY` (or use Ollama locally only).
+
+---
+
+## Repo layout
+
+| Path | Purpose |
+|------|--------|
+| `rag_system.py` | DocumentChunker, RAGRetriever, PromptEngineer, RAGPipeline |
+| `evaluation.py` | Test set, V1 vs V2 comparison |
+| `demo.py` | Short demo script |
+| `data/` | Policy documents (refund, cancellation, shipping) |
+| `web/` | Next.js UI and `/api/ask` (OpenAI or Ollama) |
+| `QUICKSTART.md`, `PROMPT_ENGINEERING.md` | Extra docs |
+| `DEPLOY.md` | GitHub + Vercel steps |
+| `web/OLLAMA.md` | Free local LLM (Ollama) setup |

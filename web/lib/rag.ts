@@ -24,7 +24,8 @@ const CHUNK_SIZE = 512;
 const CHUNK_OVERLAP = 50;
 const DISTANCE_THRESHOLD = 0.8;
 const EMBEDDING_MODEL =
-  process.env.OPENAI_EMBED_MODEL || "text-embedding-3-small";
+  process.env.OPENAI_EMBED_MODEL ||
+  (process.env.OPENAI_BASE_URL ? "nomic-embed-text" : "text-embedding-3-small");
 
 let cachedIndex: IndexedChunk[] | null = null;
 let cachedDocsHash: string | null = null;
@@ -159,12 +160,19 @@ function hashDocs(docs: Array<{ filename: string; text: string }>): string {
   return String(hash);
 }
 
-async function embedTexts(texts: string[]): Promise<number[][]> {
-  const apiKey = process.env.OPENAI_API_KEY;
-  if (!apiKey) {
-    throw new Error("Missing OPENAI_API_KEY.");
+function getOpenAIConfig(): { apiKey: string; baseURL?: string } {
+  const baseURL = process.env.OPENAI_BASE_URL?.trim();
+  if (baseURL) {
+    return { apiKey: process.env.OPENAI_API_KEY || "ollama", baseURL };
   }
-  const openai = new OpenAI({ apiKey });
+  const apiKey = process.env.OPENAI_API_KEY;
+  if (!apiKey) throw new Error("Missing OPENAI_API_KEY.");
+  return { apiKey };
+}
+
+async function embedTexts(texts: string[]): Promise<number[][]> {
+  const config = getOpenAIConfig();
+  const openai = new OpenAI(config);
   const embeddings: number[][] = [];
   const batchSize = 64;
   for (let i = 0; i < texts.length; i += batchSize) {

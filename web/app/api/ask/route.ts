@@ -7,7 +7,9 @@ import {
   type RetrievedChunk,
 } from "@/lib/rag";
 
-const CHAT_MODEL = process.env.OPENAI_CHAT_MODEL || "gpt-4o-mini";
+const CHAT_MODEL =
+  process.env.OPENAI_CHAT_MODEL ||
+  (process.env.OPENAI_BASE_URL ? "llama3.2" : "gpt-4o-mini");
 
 function buildPrompt(question: string, context: string): string {
   return (
@@ -58,12 +60,24 @@ function normalizeSources(chunks: RetrievedChunk[]): string {
   return entries.join("; ");
 }
 
+function getOpenAIConfig(): { apiKey: string; baseURL?: string } {
+  const baseURL = process.env.OPENAI_BASE_URL?.trim();
+  if (baseURL) {
+    return { apiKey: process.env.OPENAI_API_KEY || "ollama", baseURL };
+  }
+  const apiKey = process.env.OPENAI_API_KEY;
+  if (!apiKey) throw new Error("Missing OPENAI_API_KEY.");
+  return { apiKey };
+}
+
 export async function POST(request: Request) {
   try {
-    const apiKey = process.env.OPENAI_API_KEY;
-    if (!apiKey) {
+    let config: { apiKey: string; baseURL?: string };
+    try {
+      config = getOpenAIConfig();
+    } catch {
       return NextResponse.json(
-        { error: "Missing OPENAI_API_KEY." },
+        { error: "Missing OPENAI_API_KEY. Or use Ollama: set OPENAI_BASE_URL=http://localhost:11434/v1" },
         { status: 500 }
       );
     }
@@ -89,7 +103,7 @@ export async function POST(request: Request) {
     }
 
     const context = formatContext(chunks);
-    const openai = new OpenAI({ apiKey });
+    const openai = new OpenAI(config);
     const response = await openai.chat.completions.create({
       model: CHAT_MODEL,
       messages: [
@@ -116,8 +130,31 @@ export async function POST(request: Request) {
       context: chunks,
     });
   } catch (error) {
+    const message = String(error);
+    const is429 = message.includes("429") || message.includes("quota");
+    const isConnectionFail =
+      message.includes("ECONNREFUSED") ||
+      message.includes("fetch failed") ||
+      message.includes("Failed to fetch") ||
+      message.includes("Connection refused") ||
+      message.includes("ENOTFOUND");
+
+    let errorLabel = "Connection failed.";
+    let detail = message;
+
+    if (is429) {
+      errorLabel = "OpenAI quota exceeded.";
+      detail =
+        "Use free local Ollama instead. In web/.env.local set: OPENAI_BASE_URL=http://localhost:11434/v1 and OPENAI_API_KEY=ollama. Install Ollama from https://ollama.com/download then run: ollama pull nomic-embed-text && ollama pull llama3.2. See web/OLLAMA.md.";
+    } else if (isConnectionFail) {
+      const hint = process.env.OPENAI_BASE_URL
+        ? " If using Ollama, start it (open Ollama app or run: ollama serve) and ensure you ran: ollama pull nomic-embed-text && ollama pull llama3.2"
+        : " Check OPENAI_API_KEY and your network.";
+      detail = `Connection failed.${hint}`;
+    }
+
     return NextResponse.json(
-      { error: "Failed to process request.", detail: String(error) },
+      { error: errorLabel, detail },
       { status: 500 }
     );
   }
