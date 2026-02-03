@@ -1,0 +1,534 @@
+Shipping Policy
+## Domestic Shipping
+Domestic Shipping 01: Standard shipping: 5-7 business days.
+Domestic Shipping 02: Expedited shipping: 2-3 business days.
+Domestic Shipping 03: Overnight shipping: 1 business day.
+Domestic Shipping 04: Standard shipping: 5-7 business days.
+Domestic Shipping 05: Expedited shipping: 2-3 business days.
+Domestic Shipping 06: Overnight shipping: 1 business day.
+Domestic Shipping 07: Standard shipping: 5-7 business days.
+Domestic Shipping 08: Expedited shipping: 2-3 business days.
+Domestic Shipping 09: Overnight shipping: 1 business day.
+Domestic Shipping 10: Standard shipping: 5-7 business days.
+Domestic Shipping 11: Expedited shipping: 2-3 business days.
+Domestic Shipping 12: Overnight shipping: 1 business day.
+Domestic Shipping 13: Standard shipping: 5-7 business days.
+Domestic Shipping 14: Expedited shipping: 2-3 business days.
+Domestic Shipping 15: Overnight shipping: 1 business day.
+Domestic Shipping 16: Standard shipping: 5-7 business days.
+Domestic Shipping 17: Expedited shipping: 2-3 business days.
+Domestic Shipping 18: Overnight shipping: 1 business day.
+Domestic Shipping 19: Standard shipping: 5-7 business days.
+Domestic Shipping 20: Expedited shipping: 2-3 business days.
+Domestic Shipping 21: Overnight shipping: 1 business day.
+Domestic Shipping 22: Standard shipping: 5-7 business days.
+Domestic Shipping 23: Expedited shipping: 2-3 business days.
+Domestic Shipping 24: Overnight shipping: 1 business day.
+Domestic Shipping 25: Standard shipping: 5-7 business days.
+Domestic Shipping 26: Expedited shipping: 2-3 business days.
+Domestic Shipping 27: Overnight shipping: 1 business day.
+Domestic Shipping 28: Standard shipping: 5-7 business days.
+Domestic Shipping 29: Expedited shipping: 2-3 business days.
+Domestic Shipping 30: Overnight shipping: 1 business day.
+Domestic Shipping 31: Standard shipping: 5-7 business days.
+Domestic Shipping 32: Expedited shipping: 2-3 business days.
+Domestic Shipping 33: Overnight shipping: 1 business day.
+Domestic Shipping 34: Standard shipping: 5-7 business days.
+Domestic Shipping 35: Expedited shipping: 2-3 business days.
+Domestic Shipping 36: Overnight shipping: 1 business day.
+Domestic Shipping 37: Standard shipping: 5-7 business days.
+Domestic Shipping 38: Expedited shipping: 2-3 business days.
+Domestic Shipping 39: Overnight shipping: 1 business day.
+Domestic Shipping 40: Standard shipping: 5-7 business days.
+## International Shipping
+International Shipping 01: International standard: 7-14 business days.
+International Shipping 02: Duties and taxes are the customer responsibility.
+International Shipping 03: Some regions have limited carrier availability.
+International Shipping 04: International standard: 7-14 business days.
+International Shipping 05: Duties and taxes are the customer responsibility.
+International Shipping 06: Some regions have limited carrier availability.
+International Shipping 07: International standard: 7-14 business days.
+International Shipping 08: Duties and taxes are the customer responsibility.
+International Shipping 09: Some regions have limited carrier availability.
+International Shipping 10: International standard: 7-14 business days.
+International Shipping 11: Duties and taxes are the customer responsibility.
+International Shipping 12: Some regions have limited carrier availability.
+International Shipping 13: International standard: 7-14 business days.
+International Shipping 14: Duties and taxes are the customer responsibility.
+International Shipping 15: Some regions have limited carrier availability.
+International Shipping 16: International standard: 7-14 business days.
+International Shipping 17: Duties and taxes are the customer responsibility.
+International Shipping 18: Some regions have limited carrier availability.
+International Shipping 19: International standard: 7-14 business days.
+International Shipping 20: Duties and taxes are the customer responsibility.
+International Shipping 21: Some regions have limited carrier availability.
+International Shipping 22: International standard: 7-14 business days.
+International Shipping 23: Duties and taxes are the customer responsibility.
+International Shipping 24: Some regions have limited carrier availability.
+International Shipping 25: International standard: 7-14 business days.
+International Shipping 26: Duties and taxes are the customer responsibility.
+International Shipping 27: Some regions have limited carrier availability.
+International Shipping 28: International standard: 7-14 business days.
+International Shipping 29: Duties and taxes are the customer responsibility.
+International Shipping 30: Some regions have limited carrier availability.
+International Shipping 31: International standard: 7-14 business days.
+International Shipping 32: Duties and taxes are the customer responsibility.
+International Shipping 33: Some regions have limited carrier availability.
+International Shipping 34: International standard: 7-14 business days.
+International Shipping 35: Duties and taxes are the customer responsibility.
+International Shipping 36: Some regions have limited carrier availability.
+International Shipping 37: International standard: 7-14 business days.
+International Shipping 38: Duties and taxes are the customer responsibility.
+International Shipping 39: Some regions have limited carrier availability.
+International Shipping 40: International standard: 7-14 business days.
+## Processing Times
+Processing Times 01: Orders are processed within 1-2 business days.
+Processing Times 02: Custom orders may require 3-5 business days processing.
+Processing Times 03: Orders placed after 2pm ship the next business day.
+Processing Times 04: Orders are processed within 1-2 business days.
+Processing Times 05: Custom orders may require 3-5 business days processing.
+Processing Times 06: Orders placed after 2pm ship the next business day.
+Processing Times 07: Orders are processed within 1-2 business days.
+Processing Times 08: Custom orders may require 3-5 business days processing.
+Processing Times 09: Orders placed after 2pm ship the next business day.
+Processing Times 10: Orders are processed within 1-2 business days.
+Processing Times 11: Custom orders may require 3-5 business days processing.
+Processing Times 12: Orders placed after 2pm ship the next business day.
+Processing Times 13: Orders are processed within 1-2 business days.
+Processing Times 14: Custom orders may require 3-5 business days processing.
+Processing Times 15: Orders placed after 2pm ship the next business day.
+Processing Times 16: Orders are processed within 1-2 business days.
+Processing Times 17: Custom orders may require 3-5 business days processing.
+Processing Times 18: Orders placed after 2pm ship the next business day.
+Processing Times 19: Orders are processed within 1-2 business days.
+Processing Times 20: Custom orders may require 3-5 business days processing.
+Processing Times 21: Orders placed after 2pm ship the next business day.
+Processing Times 22: Orders are processed within 1-2 business days.
+Processing Times 23: Custom orders may require 3-5 business days processing.
+Processing Times 24: Orders placed after 2pm ship the next business day.
+Processing Times 25: Orders are processed within 1-2 business days.
+Processing Times 26: Custom orders may require 3-5 business days processing.
+Processing Times 27: Orders placed after 2pm ship the next business day.
+Processing Times 28: Orders are processed within 1-2 business days.
+Processing Times 29: Custom orders may require 3-5 business days processing.
+Processing Times 30: Orders placed after 2pm ship the next business day.
+Processing Times 31: Orders are processed within 1-2 business days.
+Processing Times 32: Custom orders may require 3-5 business days processing.
+Processing Times 33: Orders placed after 2pm ship the next business day.
+Processing Times 34: Orders are processed within 1-2 business days.
+Processing Times 35: Custom orders may require 3-5 business days processing.
+Processing Times 36: Orders placed after 2pm ship the next business day.
+Processing Times 37: Orders are processed within 1-2 business days.
+Processing Times 38: Custom orders may require 3-5 business days processing.
+Processing Times 39: Orders placed after 2pm ship the next business day.
+Processing Times 40: Orders are processed within 1-2 business days.
+## Tracking
+Tracking 01: Tracking numbers are emailed once the order ships.
+Tracking 02: Tracking updates may take 24 hours to appear.
+Tracking 03: Carrier delays are outside our direct control.
+Tracking 04: Tracking numbers are emailed once the order ships.
+Tracking 05: Tracking updates may take 24 hours to appear.
+Tracking 06: Carrier delays are outside our direct control.
+Tracking 07: Tracking numbers are emailed once the order ships.
+Tracking 08: Tracking updates may take 24 hours to appear.
+Tracking 09: Carrier delays are outside our direct control.
+Tracking 10: Tracking numbers are emailed once the order ships.
+Tracking 11: Tracking updates may take 24 hours to appear.
+Tracking 12: Carrier delays are outside our direct control.
+Tracking 13: Tracking numbers are emailed once the order ships.
+Tracking 14: Tracking updates may take 24 hours to appear.
+Tracking 15: Carrier delays are outside our direct control.
+Tracking 16: Tracking numbers are emailed once the order ships.
+Tracking 17: Tracking updates may take 24 hours to appear.
+Tracking 18: Carrier delays are outside our direct control.
+Tracking 19: Tracking numbers are emailed once the order ships.
+Tracking 20: Tracking updates may take 24 hours to appear.
+Tracking 21: Carrier delays are outside our direct control.
+Tracking 22: Tracking numbers are emailed once the order ships.
+Tracking 23: Tracking updates may take 24 hours to appear.
+Tracking 24: Carrier delays are outside our direct control.
+Tracking 25: Tracking numbers are emailed once the order ships.
+Tracking 26: Tracking updates may take 24 hours to appear.
+Tracking 27: Carrier delays are outside our direct control.
+Tracking 28: Tracking numbers are emailed once the order ships.
+Tracking 29: Tracking updates may take 24 hours to appear.
+Tracking 30: Carrier delays are outside our direct control.
+Tracking 31: Tracking numbers are emailed once the order ships.
+Tracking 32: Tracking updates may take 24 hours to appear.
+Tracking 33: Carrier delays are outside our direct control.
+Tracking 34: Tracking numbers are emailed once the order ships.
+Tracking 35: Tracking updates may take 24 hours to appear.
+Tracking 36: Carrier delays are outside our direct control.
+Tracking 37: Tracking numbers are emailed once the order ships.
+Tracking 38: Tracking updates may take 24 hours to appear.
+Tracking 39: Carrier delays are outside our direct control.
+Tracking 40: Tracking numbers are emailed once the order ships.
+## Shipping Restrictions
+Shipping Restrictions 01: We do not ship to PO boxes for expedited or overnight service.
+Shipping Restrictions 02: Certain hazardous materials cannot be shipped internationally.
+Shipping Restrictions 03: Remote areas may require additional transit time.
+Shipping Restrictions 04: We do not ship to PO boxes for expedited or overnight service.
+Shipping Restrictions 05: Certain hazardous materials cannot be shipped internationally.
+Shipping Restrictions 06: Remote areas may require additional transit time.
+Shipping Restrictions 07: We do not ship to PO boxes for expedited or overnight service.
+Shipping Restrictions 08: Certain hazardous materials cannot be shipped internationally.
+Shipping Restrictions 09: Remote areas may require additional transit time.
+Shipping Restrictions 10: We do not ship to PO boxes for expedited or overnight service.
+Shipping Restrictions 11: Certain hazardous materials cannot be shipped internationally.
+Shipping Restrictions 12: Remote areas may require additional transit time.
+Shipping Restrictions 13: We do not ship to PO boxes for expedited or overnight service.
+Shipping Restrictions 14: Certain hazardous materials cannot be shipped internationally.
+Shipping Restrictions 15: Remote areas may require additional transit time.
+Shipping Restrictions 16: We do not ship to PO boxes for expedited or overnight service.
+Shipping Restrictions 17: Certain hazardous materials cannot be shipped internationally.
+Shipping Restrictions 18: Remote areas may require additional transit time.
+Shipping Restrictions 19: We do not ship to PO boxes for expedited or overnight service.
+Shipping Restrictions 20: Certain hazardous materials cannot be shipped internationally.
+Shipping Restrictions 21: Remote areas may require additional transit time.
+Shipping Restrictions 22: We do not ship to PO boxes for expedited or overnight service.
+Shipping Restrictions 23: Certain hazardous materials cannot be shipped internationally.
+Shipping Restrictions 24: Remote areas may require additional transit time.
+Shipping Restrictions 25: We do not ship to PO boxes for expedited or overnight service.
+Shipping Restrictions 26: Certain hazardous materials cannot be shipped internationally.
+Shipping Restrictions 27: Remote areas may require additional transit time.
+Shipping Restrictions 28: We do not ship to PO boxes for expedited or overnight service.
+Shipping Restrictions 29: Certain hazardous materials cannot be shipped internationally.
+Shipping Restrictions 30: Remote areas may require additional transit time.
+Shipping Restrictions 31: We do not ship to PO boxes for expedited or overnight service.
+Shipping Restrictions 32: Certain hazardous materials cannot be shipped internationally.
+Shipping Restrictions 33: Remote areas may require additional transit time.
+Shipping Restrictions 34: We do not ship to PO boxes for expedited or overnight service.
+Shipping Restrictions 35: Certain hazardous materials cannot be shipped internationally.
+Shipping Restrictions 36: Remote areas may require additional transit time.
+Shipping Restrictions 37: We do not ship to PO boxes for expedited or overnight service.
+Shipping Restrictions 38: Certain hazardous materials cannot be shipped internationally.
+Shipping Restrictions 39: Remote areas may require additional transit time.
+Shipping Restrictions 40: We do not ship to PO boxes for expedited or overnight service.
+## Lost Packages
+Lost Packages 01: Packages are considered lost after 10 business days without updates.
+Lost Packages 02: We will initiate a carrier investigation upon request.
+Lost Packages 03: Approved claims result in replacement or refund.
+Lost Packages 04: Packages are considered lost after 10 business days without updates.
+Lost Packages 05: We will initiate a carrier investigation upon request.
+Lost Packages 06: Approved claims result in replacement or refund.
+Lost Packages 07: Packages are considered lost after 10 business days without updates.
+Lost Packages 08: We will initiate a carrier investigation upon request.
+Lost Packages 09: Approved claims result in replacement or refund.
+Lost Packages 10: Packages are considered lost after 10 business days without updates.
+Lost Packages 11: We will initiate a carrier investigation upon request.
+Lost Packages 12: Approved claims result in replacement or refund.
+Lost Packages 13: Packages are considered lost after 10 business days without updates.
+Lost Packages 14: We will initiate a carrier investigation upon request.
+Lost Packages 15: Approved claims result in replacement or refund.
+Lost Packages 16: Packages are considered lost after 10 business days without updates.
+Lost Packages 17: We will initiate a carrier investigation upon request.
+Lost Packages 18: Approved claims result in replacement or refund.
+Lost Packages 19: Packages are considered lost after 10 business days without updates.
+Lost Packages 20: We will initiate a carrier investigation upon request.
+Lost Packages 21: Approved claims result in replacement or refund.
+Lost Packages 22: Packages are considered lost after 10 business days without updates.
+Lost Packages 23: We will initiate a carrier investigation upon request.
+Lost Packages 24: Approved claims result in replacement or refund.
+Lost Packages 25: Packages are considered lost after 10 business days without updates.
+Lost Packages 26: We will initiate a carrier investigation upon request.
+Lost Packages 27: Approved claims result in replacement or refund.
+Lost Packages 28: Packages are considered lost after 10 business days without updates.
+Lost Packages 29: We will initiate a carrier investigation upon request.
+Lost Packages 30: Approved claims result in replacement or refund.
+Lost Packages 31: Packages are considered lost after 10 business days without updates.
+Lost Packages 32: We will initiate a carrier investigation upon request.
+Lost Packages 33: Approved claims result in replacement or refund.
+Lost Packages 34: Packages are considered lost after 10 business days without updates.
+Lost Packages 35: We will initiate a carrier investigation upon request.
+Lost Packages 36: Approved claims result in replacement or refund.
+Lost Packages 37: Packages are considered lost after 10 business days without updates.
+Lost Packages 38: We will initiate a carrier investigation upon request.
+Lost Packages 39: Approved claims result in replacement or refund.
+Lost Packages 40: Packages are considered lost after 10 business days without updates.
+## Damaged Packages
+Damaged Packages 01: Report shipping damage within 48 hours of delivery.
+Damaged Packages 02: Provide photos of the package and contents.
+Damaged Packages 03: We will replace or refund confirmed damage.
+Damaged Packages 04: Report shipping damage within 48 hours of delivery.
+Damaged Packages 05: Provide photos of the package and contents.
+Damaged Packages 06: We will replace or refund confirmed damage.
+Damaged Packages 07: Report shipping damage within 48 hours of delivery.
+Damaged Packages 08: Provide photos of the package and contents.
+Damaged Packages 09: We will replace or refund confirmed damage.
+Damaged Packages 10: Report shipping damage within 48 hours of delivery.
+Damaged Packages 11: Provide photos of the package and contents.
+Damaged Packages 12: We will replace or refund confirmed damage.
+Damaged Packages 13: Report shipping damage within 48 hours of delivery.
+Damaged Packages 14: Provide photos of the package and contents.
+Damaged Packages 15: We will replace or refund confirmed damage.
+Damaged Packages 16: Report shipping damage within 48 hours of delivery.
+Damaged Packages 17: Provide photos of the package and contents.
+Damaged Packages 18: We will replace or refund confirmed damage.
+Damaged Packages 19: Report shipping damage within 48 hours of delivery.
+Damaged Packages 20: Provide photos of the package and contents.
+Damaged Packages 21: We will replace or refund confirmed damage.
+Damaged Packages 22: Report shipping damage within 48 hours of delivery.
+Damaged Packages 23: Provide photos of the package and contents.
+Damaged Packages 24: We will replace or refund confirmed damage.
+Damaged Packages 25: Report shipping damage within 48 hours of delivery.
+Damaged Packages 26: Provide photos of the package and contents.
+Damaged Packages 27: We will replace or refund confirmed damage.
+Damaged Packages 28: Report shipping damage within 48 hours of delivery.
+Damaged Packages 29: Provide photos of the package and contents.
+Damaged Packages 30: We will replace or refund confirmed damage.
+Damaged Packages 31: Report shipping damage within 48 hours of delivery.
+Damaged Packages 32: Provide photos of the package and contents.
+Damaged Packages 33: We will replace or refund confirmed damage.
+Damaged Packages 34: Report shipping damage within 48 hours of delivery.
+Damaged Packages 35: Provide photos of the package and contents.
+Damaged Packages 36: We will replace or refund confirmed damage.
+Damaged Packages 37: Report shipping damage within 48 hours of delivery.
+Damaged Packages 38: Provide photos of the package and contents.
+Damaged Packages 39: We will replace or refund confirmed damage.
+Damaged Packages 40: Report shipping damage within 48 hours of delivery.
+## Address Changes
+Address Changes 01: Address changes are allowed before shipment only.
+Address Changes 02: Once shipped, changes must be handled with the carrier.
+Address Changes 03: Reshipment fees may apply for returned packages.
+Address Changes 04: Address changes are allowed before shipment only.
+Address Changes 05: Once shipped, changes must be handled with the carrier.
+Address Changes 06: Reshipment fees may apply for returned packages.
+Address Changes 07: Address changes are allowed before shipment only.
+Address Changes 08: Once shipped, changes must be handled with the carrier.
+Address Changes 09: Reshipment fees may apply for returned packages.
+Address Changes 10: Address changes are allowed before shipment only.
+Address Changes 11: Once shipped, changes must be handled with the carrier.
+Address Changes 12: Reshipment fees may apply for returned packages.
+Address Changes 13: Address changes are allowed before shipment only.
+Address Changes 14: Once shipped, changes must be handled with the carrier.
+Address Changes 15: Reshipment fees may apply for returned packages.
+Address Changes 16: Address changes are allowed before shipment only.
+Address Changes 17: Once shipped, changes must be handled with the carrier.
+Address Changes 18: Reshipment fees may apply for returned packages.
+Address Changes 19: Address changes are allowed before shipment only.
+Address Changes 20: Once shipped, changes must be handled with the carrier.
+Address Changes 21: Reshipment fees may apply for returned packages.
+Address Changes 22: Address changes are allowed before shipment only.
+Address Changes 23: Once shipped, changes must be handled with the carrier.
+Address Changes 24: Reshipment fees may apply for returned packages.
+Address Changes 25: Address changes are allowed before shipment only.
+Address Changes 26: Once shipped, changes must be handled with the carrier.
+Address Changes 27: Reshipment fees may apply for returned packages.
+Address Changes 28: Address changes are allowed before shipment only.
+Address Changes 29: Once shipped, changes must be handled with the carrier.
+Address Changes 30: Reshipment fees may apply for returned packages.
+Address Changes 31: Address changes are allowed before shipment only.
+Address Changes 32: Once shipped, changes must be handled with the carrier.
+Address Changes 33: Reshipment fees may apply for returned packages.
+Address Changes 34: Address changes are allowed before shipment only.
+Address Changes 35: Once shipped, changes must be handled with the carrier.
+Address Changes 36: Reshipment fees may apply for returned packages.
+Address Changes 37: Address changes are allowed before shipment only.
+Address Changes 38: Once shipped, changes must be handled with the carrier.
+Address Changes 39: Reshipment fees may apply for returned packages.
+Address Changes 40: Address changes are allowed before shipment only.
+## Insurance
+Insurance 01: Orders over $200 include complimentary shipping insurance.
+Insurance 02: Optional insurance can be added at checkout.
+Insurance 03: Insurance claims require proof of value.
+Insurance 04: Orders over $200 include complimentary shipping insurance.
+Insurance 05: Optional insurance can be added at checkout.
+Insurance 06: Insurance claims require proof of value.
+Insurance 07: Orders over $200 include complimentary shipping insurance.
+Insurance 08: Optional insurance can be added at checkout.
+Insurance 09: Insurance claims require proof of value.
+Insurance 10: Orders over $200 include complimentary shipping insurance.
+Insurance 11: Optional insurance can be added at checkout.
+Insurance 12: Insurance claims require proof of value.
+Insurance 13: Orders over $200 include complimentary shipping insurance.
+Insurance 14: Optional insurance can be added at checkout.
+Insurance 15: Insurance claims require proof of value.
+Insurance 16: Orders over $200 include complimentary shipping insurance.
+Insurance 17: Optional insurance can be added at checkout.
+Insurance 18: Insurance claims require proof of value.
+Insurance 19: Orders over $200 include complimentary shipping insurance.
+Insurance 20: Optional insurance can be added at checkout.
+Insurance 21: Insurance claims require proof of value.
+Insurance 22: Orders over $200 include complimentary shipping insurance.
+Insurance 23: Optional insurance can be added at checkout.
+Insurance 24: Insurance claims require proof of value.
+Insurance 25: Orders over $200 include complimentary shipping insurance.
+Insurance 26: Optional insurance can be added at checkout.
+Insurance 27: Insurance claims require proof of value.
+Insurance 28: Orders over $200 include complimentary shipping insurance.
+Insurance 29: Optional insurance can be added at checkout.
+Insurance 30: Insurance claims require proof of value.
+Insurance 31: Orders over $200 include complimentary shipping insurance.
+Insurance 32: Optional insurance can be added at checkout.
+Insurance 33: Insurance claims require proof of value.
+Insurance 34: Orders over $200 include complimentary shipping insurance.
+Insurance 35: Optional insurance can be added at checkout.
+Insurance 36: Insurance claims require proof of value.
+Insurance 37: Orders over $200 include complimentary shipping insurance.
+Insurance 38: Optional insurance can be added at checkout.
+Insurance 39: Insurance claims require proof of value.
+Insurance 40: Orders over $200 include complimentary shipping insurance.
+## Delivery Issues
+Delivery Issues 01: Signature may be required for high-value orders.
+Delivery Issues 02: Weather events may delay delivery timelines.
+Delivery Issues 03: Missed delivery attempts follow the carrier policies.
+Delivery Issues 04: Signature may be required for high-value orders.
+Delivery Issues 05: Weather events may delay delivery timelines.
+Delivery Issues 06: Missed delivery attempts follow the carrier policies.
+Delivery Issues 07: Signature may be required for high-value orders.
+Delivery Issues 08: Weather events may delay delivery timelines.
+Delivery Issues 09: Missed delivery attempts follow the carrier policies.
+Delivery Issues 10: Signature may be required for high-value orders.
+Delivery Issues 11: Weather events may delay delivery timelines.
+Delivery Issues 12: Missed delivery attempts follow the carrier policies.
+Delivery Issues 13: Signature may be required for high-value orders.
+Delivery Issues 14: Weather events may delay delivery timelines.
+Delivery Issues 15: Missed delivery attempts follow the carrier policies.
+Delivery Issues 16: Signature may be required for high-value orders.
+Delivery Issues 17: Weather events may delay delivery timelines.
+Delivery Issues 18: Missed delivery attempts follow the carrier policies.
+Delivery Issues 19: Signature may be required for high-value orders.
+Delivery Issues 20: Weather events may delay delivery timelines.
+Delivery Issues 21: Missed delivery attempts follow the carrier policies.
+Delivery Issues 22: Signature may be required for high-value orders.
+Delivery Issues 23: Weather events may delay delivery timelines.
+Delivery Issues 24: Missed delivery attempts follow the carrier policies.
+Delivery Issues 25: Signature may be required for high-value orders.
+Delivery Issues 26: Weather events may delay delivery timelines.
+Delivery Issues 27: Missed delivery attempts follow the carrier policies.
+Delivery Issues 28: Signature may be required for high-value orders.
+Delivery Issues 29: Weather events may delay delivery timelines.
+Delivery Issues 30: Missed delivery attempts follow the carrier policies.
+Delivery Issues 31: Signature may be required for high-value orders.
+Delivery Issues 32: Weather events may delay delivery timelines.
+Delivery Issues 33: Missed delivery attempts follow the carrier policies.
+Delivery Issues 34: Signature may be required for high-value orders.
+Delivery Issues 35: Weather events may delay delivery timelines.
+Delivery Issues 36: Missed delivery attempts follow the carrier policies.
+Delivery Issues 37: Signature may be required for high-value orders.
+Delivery Issues 38: Weather events may delay delivery timelines.
+Delivery Issues 39: Missed delivery attempts follow the carrier policies.
+Delivery Issues 40: Signature may be required for high-value orders.
+## Holiday Schedules
+Holiday Schedules 01: Carrier holidays are excluded from business day estimates.
+Holiday Schedules 02: Peak season may add 2-4 days to transit.
+Holiday Schedules 03: Announcements will be posted during major holidays.
+Holiday Schedules 04: Carrier holidays are excluded from business day estimates.
+Holiday Schedules 05: Peak season may add 2-4 days to transit.
+Holiday Schedules 06: Announcements will be posted during major holidays.
+Holiday Schedules 07: Carrier holidays are excluded from business day estimates.
+Holiday Schedules 08: Peak season may add 2-4 days to transit.
+Holiday Schedules 09: Announcements will be posted during major holidays.
+Holiday Schedules 10: Carrier holidays are excluded from business day estimates.
+Holiday Schedules 11: Peak season may add 2-4 days to transit.
+Holiday Schedules 12: Announcements will be posted during major holidays.
+Holiday Schedules 13: Carrier holidays are excluded from business day estimates.
+Holiday Schedules 14: Peak season may add 2-4 days to transit.
+Holiday Schedules 15: Announcements will be posted during major holidays.
+Holiday Schedules 16: Carrier holidays are excluded from business day estimates.
+Holiday Schedules 17: Peak season may add 2-4 days to transit.
+Holiday Schedules 18: Announcements will be posted during major holidays.
+Holiday Schedules 19: Carrier holidays are excluded from business day estimates.
+Holiday Schedules 20: Peak season may add 2-4 days to transit.
+Holiday Schedules 21: Announcements will be posted during major holidays.
+Holiday Schedules 22: Carrier holidays are excluded from business day estimates.
+Holiday Schedules 23: Peak season may add 2-4 days to transit.
+Holiday Schedules 24: Announcements will be posted during major holidays.
+Holiday Schedules 25: Carrier holidays are excluded from business day estimates.
+Holiday Schedules 26: Peak season may add 2-4 days to transit.
+Holiday Schedules 27: Announcements will be posted during major holidays.
+Holiday Schedules 28: Carrier holidays are excluded from business day estimates.
+Holiday Schedules 29: Peak season may add 2-4 days to transit.
+Holiday Schedules 30: Announcements will be posted during major holidays.
+Holiday Schedules 31: Carrier holidays are excluded from business day estimates.
+Holiday Schedules 32: Peak season may add 2-4 days to transit.
+Holiday Schedules 33: Announcements will be posted during major holidays.
+Holiday Schedules 34: Carrier holidays are excluded from business day estimates.
+Holiday Schedules 35: Peak season may add 2-4 days to transit.
+Holiday Schedules 36: Announcements will be posted during major holidays.
+Holiday Schedules 37: Carrier holidays are excluded from business day estimates.
+Holiday Schedules 38: Peak season may add 2-4 days to transit.
+Holiday Schedules 39: Announcements will be posted during major holidays.
+Holiday Schedules 40: Carrier holidays are excluded from business day estimates.
+## International Returns
+International Returns 01: International returns must follow the refund policy.
+International Returns 02: Return shipping and customs fees are non-refundable.
+International Returns 03: Declared values must match original invoices.
+International Returns 04: International returns must follow the refund policy.
+International Returns 05: Return shipping and customs fees are non-refundable.
+International Returns 06: Declared values must match original invoices.
+International Returns 07: International returns must follow the refund policy.
+International Returns 08: Return shipping and customs fees are non-refundable.
+International Returns 09: Declared values must match original invoices.
+International Returns 10: International returns must follow the refund policy.
+International Returns 11: Return shipping and customs fees are non-refundable.
+International Returns 12: Declared values must match original invoices.
+International Returns 13: International returns must follow the refund policy.
+International Returns 14: Return shipping and customs fees are non-refundable.
+International Returns 15: Declared values must match original invoices.
+International Returns 16: International returns must follow the refund policy.
+International Returns 17: Return shipping and customs fees are non-refundable.
+International Returns 18: Declared values must match original invoices.
+International Returns 19: International returns must follow the refund policy.
+International Returns 20: Return shipping and customs fees are non-refundable.
+International Returns 21: Declared values must match original invoices.
+International Returns 22: International returns must follow the refund policy.
+International Returns 23: Return shipping and customs fees are non-refundable.
+International Returns 24: Declared values must match original invoices.
+International Returns 25: International returns must follow the refund policy.
+International Returns 26: Return shipping and customs fees are non-refundable.
+International Returns 27: Declared values must match original invoices.
+International Returns 28: International returns must follow the refund policy.
+International Returns 29: Return shipping and customs fees are non-refundable.
+International Returns 30: Declared values must match original invoices.
+International Returns 31: International returns must follow the refund policy.
+International Returns 32: Return shipping and customs fees are non-refundable.
+International Returns 33: Declared values must match original invoices.
+International Returns 34: International returns must follow the refund policy.
+International Returns 35: Return shipping and customs fees are non-refundable.
+International Returns 36: Declared values must match original invoices.
+International Returns 37: International returns must follow the refund policy.
+International Returns 38: Return shipping and customs fees are non-refundable.
+International Returns 39: Declared values must match original invoices.
+International Returns 40: International returns must follow the refund policy.
+## Contact Information
+Contact Information 01: Shipping support: shipping@example.com
+Contact Information 02: Phone support: +1-555-0102
+Contact Information 03: Support hours: Monday-Friday, 9am-5pm local time.
+Contact Information 04: Shipping support: shipping@example.com
+Contact Information 05: Phone support: +1-555-0102
+Contact Information 06: Support hours: Monday-Friday, 9am-5pm local time.
+Contact Information 07: Shipping support: shipping@example.com
+Contact Information 08: Phone support: +1-555-0102
+Contact Information 09: Support hours: Monday-Friday, 9am-5pm local time.
+Contact Information 10: Shipping support: shipping@example.com
+Contact Information 11: Phone support: +1-555-0102
+Contact Information 12: Support hours: Monday-Friday, 9am-5pm local time.
+Contact Information 13: Shipping support: shipping@example.com
+Contact Information 14: Phone support: +1-555-0102
+Contact Information 15: Support hours: Monday-Friday, 9am-5pm local time.
+Contact Information 16: Shipping support: shipping@example.com
+Contact Information 17: Phone support: +1-555-0102
+Contact Information 18: Support hours: Monday-Friday, 9am-5pm local time.
+Contact Information 19: Shipping support: shipping@example.com
+Contact Information 20: Phone support: +1-555-0102
+Contact Information 21: Support hours: Monday-Friday, 9am-5pm local time.
+Contact Information 22: Shipping support: shipping@example.com
+Contact Information 23: Phone support: +1-555-0102
+Contact Information 24: Support hours: Monday-Friday, 9am-5pm local time.
+Contact Information 25: Shipping support: shipping@example.com
+Contact Information 26: Phone support: +1-555-0102
+Contact Information 27: Support hours: Monday-Friday, 9am-5pm local time.
+Contact Information 28: Shipping support: shipping@example.com
+Contact Information 29: Phone support: +1-555-0102
+Contact Information 30: Support hours: Monday-Friday, 9am-5pm local time.
+Contact Information 31: Shipping support: shipping@example.com
+Contact Information 32: Phone support: +1-555-0102
+Contact Information 33: Support hours: Monday-Friday, 9am-5pm local time.
+Contact Information 34: Shipping support: shipping@example.com
+Contact Information 35: Phone support: +1-555-0102
+Contact Information 36: Support hours: Monday-Friday, 9am-5pm local time.
+Contact Information 37: Shipping support: shipping@example.com
+Contact Information 38: Phone support: +1-555-0102
+Contact Information 39: Support hours: Monday-Friday, 9am-5pm local time.
+Contact Information 40: Shipping support: shipping@example.com

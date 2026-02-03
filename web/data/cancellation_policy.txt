@@ -1,0 +1,534 @@
+Cancellation Policy
+## Order Cancellation Window
+Order Cancellation Window 01: Orders can be cancelled for free within 24 hours of purchase.
+Order Cancellation Window 02: After 24 hours, a $10 cancellation fee applies if the order has not shipped.
+Order Cancellation Window 03: Orders already shipped cannot be cancelled.
+Order Cancellation Window 04: Orders can be cancelled for free within 24 hours of purchase.
+Order Cancellation Window 05: After 24 hours, a $10 cancellation fee applies if the order has not shipped.
+Order Cancellation Window 06: Orders already shipped cannot be cancelled.
+Order Cancellation Window 07: Orders can be cancelled for free within 24 hours of purchase.
+Order Cancellation Window 08: After 24 hours, a $10 cancellation fee applies if the order has not shipped.
+Order Cancellation Window 09: Orders already shipped cannot be cancelled.
+Order Cancellation Window 10: Orders can be cancelled for free within 24 hours of purchase.
+Order Cancellation Window 11: After 24 hours, a $10 cancellation fee applies if the order has not shipped.
+Order Cancellation Window 12: Orders already shipped cannot be cancelled.
+Order Cancellation Window 13: Orders can be cancelled for free within 24 hours of purchase.
+Order Cancellation Window 14: After 24 hours, a $10 cancellation fee applies if the order has not shipped.
+Order Cancellation Window 15: Orders already shipped cannot be cancelled.
+Order Cancellation Window 16: Orders can be cancelled for free within 24 hours of purchase.
+Order Cancellation Window 17: After 24 hours, a $10 cancellation fee applies if the order has not shipped.
+Order Cancellation Window 18: Orders already shipped cannot be cancelled.
+Order Cancellation Window 19: Orders can be cancelled for free within 24 hours of purchase.
+Order Cancellation Window 20: After 24 hours, a $10 cancellation fee applies if the order has not shipped.
+Order Cancellation Window 21: Orders already shipped cannot be cancelled.
+Order Cancellation Window 22: Orders can be cancelled for free within 24 hours of purchase.
+Order Cancellation Window 23: After 24 hours, a $10 cancellation fee applies if the order has not shipped.
+Order Cancellation Window 24: Orders already shipped cannot be cancelled.
+Order Cancellation Window 25: Orders can be cancelled for free within 24 hours of purchase.
+Order Cancellation Window 26: After 24 hours, a $10 cancellation fee applies if the order has not shipped.
+Order Cancellation Window 27: Orders already shipped cannot be cancelled.
+Order Cancellation Window 28: Orders can be cancelled for free within 24 hours of purchase.
+Order Cancellation Window 29: After 24 hours, a $10 cancellation fee applies if the order has not shipped.
+Order Cancellation Window 30: Orders already shipped cannot be cancelled.
+Order Cancellation Window 31: Orders can be cancelled for free within 24 hours of purchase.
+Order Cancellation Window 32: After 24 hours, a $10 cancellation fee applies if the order has not shipped.
+Order Cancellation Window 33: Orders already shipped cannot be cancelled.
+Order Cancellation Window 34: Orders can be cancelled for free within 24 hours of purchase.
+Order Cancellation Window 35: After 24 hours, a $10 cancellation fee applies if the order has not shipped.
+Order Cancellation Window 36: Orders already shipped cannot be cancelled.
+Order Cancellation Window 37: Orders can be cancelled for free within 24 hours of purchase.
+Order Cancellation Window 38: After 24 hours, a $10 cancellation fee applies if the order has not shipped.
+Order Cancellation Window 39: Orders already shipped cannot be cancelled.
+Order Cancellation Window 40: Orders can be cancelled for free within 24 hours of purchase.
+## Subscription Cancellations
+Subscription Cancellations 01: Monthly subscriptions can be cancelled anytime before renewal.
+Subscription Cancellations 02: Annual subscriptions are refundable within 14 days of purchase.
+Subscription Cancellations 03: After the refund window, access remains until the end of the term.
+Subscription Cancellations 04: Monthly subscriptions can be cancelled anytime before renewal.
+Subscription Cancellations 05: Annual subscriptions are refundable within 14 days of purchase.
+Subscription Cancellations 06: After the refund window, access remains until the end of the term.
+Subscription Cancellations 07: Monthly subscriptions can be cancelled anytime before renewal.
+Subscription Cancellations 08: Annual subscriptions are refundable within 14 days of purchase.
+Subscription Cancellations 09: After the refund window, access remains until the end of the term.
+Subscription Cancellations 10: Monthly subscriptions can be cancelled anytime before renewal.
+Subscription Cancellations 11: Annual subscriptions are refundable within 14 days of purchase.
+Subscription Cancellations 12: After the refund window, access remains until the end of the term.
+Subscription Cancellations 13: Monthly subscriptions can be cancelled anytime before renewal.
+Subscription Cancellations 14: Annual subscriptions are refundable within 14 days of purchase.
+Subscription Cancellations 15: After the refund window, access remains until the end of the term.
+Subscription Cancellations 16: Monthly subscriptions can be cancelled anytime before renewal.
+Subscription Cancellations 17: Annual subscriptions are refundable within 14 days of purchase.
+Subscription Cancellations 18: After the refund window, access remains until the end of the term.
+Subscription Cancellations 19: Monthly subscriptions can be cancelled anytime before renewal.
+Subscription Cancellations 20: Annual subscriptions are refundable within 14 days of purchase.
+Subscription Cancellations 21: After the refund window, access remains until the end of the term.
+Subscription Cancellations 22: Monthly subscriptions can be cancelled anytime before renewal.
+Subscription Cancellations 23: Annual subscriptions are refundable within 14 days of purchase.
+Subscription Cancellations 24: After the refund window, access remains until the end of the term.
+Subscription Cancellations 25: Monthly subscriptions can be cancelled anytime before renewal.
+Subscription Cancellations 26: Annual subscriptions are refundable within 14 days of purchase.
+Subscription Cancellations 27: After the refund window, access remains until the end of the term.
+Subscription Cancellations 28: Monthly subscriptions can be cancelled anytime before renewal.
+Subscription Cancellations 29: Annual subscriptions are refundable within 14 days of purchase.
+Subscription Cancellations 30: After the refund window, access remains until the end of the term.
+Subscription Cancellations 31: Monthly subscriptions can be cancelled anytime before renewal.
+Subscription Cancellations 32: Annual subscriptions are refundable within 14 days of purchase.
+Subscription Cancellations 33: After the refund window, access remains until the end of the term.
+Subscription Cancellations 34: Monthly subscriptions can be cancelled anytime before renewal.
+Subscription Cancellations 35: Annual subscriptions are refundable within 14 days of purchase.
+Subscription Cancellations 36: After the refund window, access remains until the end of the term.
+Subscription Cancellations 37: Monthly subscriptions can be cancelled anytime before renewal.
+Subscription Cancellations 38: Annual subscriptions are refundable within 14 days of purchase.
+Subscription Cancellations 39: After the refund window, access remains until the end of the term.
+Subscription Cancellations 40: Monthly subscriptions can be cancelled anytime before renewal.
+## Service Appointments
+Service Appointments 01: Cancellations require 48 hours notice to avoid fees.
+Service Appointments 02: Late cancellations may be charged 50% of the service fee.
+Service Appointments 03: No-shows are charged the full service fee.
+Service Appointments 04: Cancellations require 48 hours notice to avoid fees.
+Service Appointments 05: Late cancellations may be charged 50% of the service fee.
+Service Appointments 06: No-shows are charged the full service fee.
+Service Appointments 07: Cancellations require 48 hours notice to avoid fees.
+Service Appointments 08: Late cancellations may be charged 50% of the service fee.
+Service Appointments 09: No-shows are charged the full service fee.
+Service Appointments 10: Cancellations require 48 hours notice to avoid fees.
+Service Appointments 11: Late cancellations may be charged 50% of the service fee.
+Service Appointments 12: No-shows are charged the full service fee.
+Service Appointments 13: Cancellations require 48 hours notice to avoid fees.
+Service Appointments 14: Late cancellations may be charged 50% of the service fee.
+Service Appointments 15: No-shows are charged the full service fee.
+Service Appointments 16: Cancellations require 48 hours notice to avoid fees.
+Service Appointments 17: Late cancellations may be charged 50% of the service fee.
+Service Appointments 18: No-shows are charged the full service fee.
+Service Appointments 19: Cancellations require 48 hours notice to avoid fees.
+Service Appointments 20: Late cancellations may be charged 50% of the service fee.
+Service Appointments 21: No-shows are charged the full service fee.
+Service Appointments 22: Cancellations require 48 hours notice to avoid fees.
+Service Appointments 23: Late cancellations may be charged 50% of the service fee.
+Service Appointments 24: No-shows are charged the full service fee.
+Service Appointments 25: Cancellations require 48 hours notice to avoid fees.
+Service Appointments 26: Late cancellations may be charged 50% of the service fee.
+Service Appointments 27: No-shows are charged the full service fee.
+Service Appointments 28: Cancellations require 48 hours notice to avoid fees.
+Service Appointments 29: Late cancellations may be charged 50% of the service fee.
+Service Appointments 30: No-shows are charged the full service fee.
+Service Appointments 31: Cancellations require 48 hours notice to avoid fees.
+Service Appointments 32: Late cancellations may be charged 50% of the service fee.
+Service Appointments 33: No-shows are charged the full service fee.
+Service Appointments 34: Cancellations require 48 hours notice to avoid fees.
+Service Appointments 35: Late cancellations may be charged 50% of the service fee.
+Service Appointments 36: No-shows are charged the full service fee.
+Service Appointments 37: Cancellations require 48 hours notice to avoid fees.
+Service Appointments 38: Late cancellations may be charged 50% of the service fee.
+Service Appointments 39: No-shows are charged the full service fee.
+Service Appointments 40: Cancellations require 48 hours notice to avoid fees.
+## Event Tickets
+Event Tickets 01: Full refund if cancelled 14+ days before the event.
+Event Tickets 02: 50% refund if cancelled 7-13 days before the event.
+Event Tickets 03: No refunds within 6 days of the event start time.
+Event Tickets 04: Full refund if cancelled 14+ days before the event.
+Event Tickets 05: 50% refund if cancelled 7-13 days before the event.
+Event Tickets 06: No refunds within 6 days of the event start time.
+Event Tickets 07: Full refund if cancelled 14+ days before the event.
+Event Tickets 08: 50% refund if cancelled 7-13 days before the event.
+Event Tickets 09: No refunds within 6 days of the event start time.
+Event Tickets 10: Full refund if cancelled 14+ days before the event.
+Event Tickets 11: 50% refund if cancelled 7-13 days before the event.
+Event Tickets 12: No refunds within 6 days of the event start time.
+Event Tickets 13: Full refund if cancelled 14+ days before the event.
+Event Tickets 14: 50% refund if cancelled 7-13 days before the event.
+Event Tickets 15: No refunds within 6 days of the event start time.
+Event Tickets 16: Full refund if cancelled 14+ days before the event.
+Event Tickets 17: 50% refund if cancelled 7-13 days before the event.
+Event Tickets 18: No refunds within 6 days of the event start time.
+Event Tickets 19: Full refund if cancelled 14+ days before the event.
+Event Tickets 20: 50% refund if cancelled 7-13 days before the event.
+Event Tickets 21: No refunds within 6 days of the event start time.
+Event Tickets 22: Full refund if cancelled 14+ days before the event.
+Event Tickets 23: 50% refund if cancelled 7-13 days before the event.
+Event Tickets 24: No refunds within 6 days of the event start time.
+Event Tickets 25: Full refund if cancelled 14+ days before the event.
+Event Tickets 26: 50% refund if cancelled 7-13 days before the event.
+Event Tickets 27: No refunds within 6 days of the event start time.
+Event Tickets 28: Full refund if cancelled 14+ days before the event.
+Event Tickets 29: 50% refund if cancelled 7-13 days before the event.
+Event Tickets 30: No refunds within 6 days of the event start time.
+Event Tickets 31: Full refund if cancelled 14+ days before the event.
+Event Tickets 32: 50% refund if cancelled 7-13 days before the event.
+Event Tickets 33: No refunds within 6 days of the event start time.
+Event Tickets 34: Full refund if cancelled 14+ days before the event.
+Event Tickets 35: 50% refund if cancelled 7-13 days before the event.
+Event Tickets 36: No refunds within 6 days of the event start time.
+Event Tickets 37: Full refund if cancelled 14+ days before the event.
+Event Tickets 38: 50% refund if cancelled 7-13 days before the event.
+Event Tickets 39: No refunds within 6 days of the event start time.
+Event Tickets 40: Full refund if cancelled 14+ days before the event.
+## Custom Orders
+Custom Orders 01: Custom orders may only be cancelled within 12 hours of purchase.
+Custom Orders 02: Materials already in production are non-refundable.
+Custom Orders 03: Design approval constitutes final confirmation.
+Custom Orders 04: Custom orders may only be cancelled within 12 hours of purchase.
+Custom Orders 05: Materials already in production are non-refundable.
+Custom Orders 06: Design approval constitutes final confirmation.
+Custom Orders 07: Custom orders may only be cancelled within 12 hours of purchase.
+Custom Orders 08: Materials already in production are non-refundable.
+Custom Orders 09: Design approval constitutes final confirmation.
+Custom Orders 10: Custom orders may only be cancelled within 12 hours of purchase.
+Custom Orders 11: Materials already in production are non-refundable.
+Custom Orders 12: Design approval constitutes final confirmation.
+Custom Orders 13: Custom orders may only be cancelled within 12 hours of purchase.
+Custom Orders 14: Materials already in production are non-refundable.
+Custom Orders 15: Design approval constitutes final confirmation.
+Custom Orders 16: Custom orders may only be cancelled within 12 hours of purchase.
+Custom Orders 17: Materials already in production are non-refundable.
+Custom Orders 18: Design approval constitutes final confirmation.
+Custom Orders 19: Custom orders may only be cancelled within 12 hours of purchase.
+Custom Orders 20: Materials already in production are non-refundable.
+Custom Orders 21: Design approval constitutes final confirmation.
+Custom Orders 22: Custom orders may only be cancelled within 12 hours of purchase.
+Custom Orders 23: Materials already in production are non-refundable.
+Custom Orders 24: Design approval constitutes final confirmation.
+Custom Orders 25: Custom orders may only be cancelled within 12 hours of purchase.
+Custom Orders 26: Materials already in production are non-refundable.
+Custom Orders 27: Design approval constitutes final confirmation.
+Custom Orders 28: Custom orders may only be cancelled within 12 hours of purchase.
+Custom Orders 29: Materials already in production are non-refundable.
+Custom Orders 30: Design approval constitutes final confirmation.
+Custom Orders 31: Custom orders may only be cancelled within 12 hours of purchase.
+Custom Orders 32: Materials already in production are non-refundable.
+Custom Orders 33: Design approval constitutes final confirmation.
+Custom Orders 34: Custom orders may only be cancelled within 12 hours of purchase.
+Custom Orders 35: Materials already in production are non-refundable.
+Custom Orders 36: Design approval constitutes final confirmation.
+Custom Orders 37: Custom orders may only be cancelled within 12 hours of purchase.
+Custom Orders 38: Materials already in production are non-refundable.
+Custom Orders 39: Design approval constitutes final confirmation.
+Custom Orders 40: Custom orders may only be cancelled within 12 hours of purchase.
+## Pre-Orders
+Pre-Orders 01: Pre-orders can be cancelled until 3 days before release.
+Pre-Orders 02: After that window, cancellation fees may apply.
+Pre-Orders 03: Release date changes do not extend cancellation windows.
+Pre-Orders 04: Pre-orders can be cancelled until 3 days before release.
+Pre-Orders 05: After that window, cancellation fees may apply.
+Pre-Orders 06: Release date changes do not extend cancellation windows.
+Pre-Orders 07: Pre-orders can be cancelled until 3 days before release.
+Pre-Orders 08: After that window, cancellation fees may apply.
+Pre-Orders 09: Release date changes do not extend cancellation windows.
+Pre-Orders 10: Pre-orders can be cancelled until 3 days before release.
+Pre-Orders 11: After that window, cancellation fees may apply.
+Pre-Orders 12: Release date changes do not extend cancellation windows.
+Pre-Orders 13: Pre-orders can be cancelled until 3 days before release.
+Pre-Orders 14: After that window, cancellation fees may apply.
+Pre-Orders 15: Release date changes do not extend cancellation windows.
+Pre-Orders 16: Pre-orders can be cancelled until 3 days before release.
+Pre-Orders 17: After that window, cancellation fees may apply.
+Pre-Orders 18: Release date changes do not extend cancellation windows.
+Pre-Orders 19: Pre-orders can be cancelled until 3 days before release.
+Pre-Orders 20: After that window, cancellation fees may apply.
+Pre-Orders 21: Release date changes do not extend cancellation windows.
+Pre-Orders 22: Pre-orders can be cancelled until 3 days before release.
+Pre-Orders 23: After that window, cancellation fees may apply.
+Pre-Orders 24: Release date changes do not extend cancellation windows.
+Pre-Orders 25: Pre-orders can be cancelled until 3 days before release.
+Pre-Orders 26: After that window, cancellation fees may apply.
+Pre-Orders 27: Release date changes do not extend cancellation windows.
+Pre-Orders 28: Pre-orders can be cancelled until 3 days before release.
+Pre-Orders 29: After that window, cancellation fees may apply.
+Pre-Orders 30: Release date changes do not extend cancellation windows.
+Pre-Orders 31: Pre-orders can be cancelled until 3 days before release.
+Pre-Orders 32: After that window, cancellation fees may apply.
+Pre-Orders 33: Release date changes do not extend cancellation windows.
+Pre-Orders 34: Pre-orders can be cancelled until 3 days before release.
+Pre-Orders 35: After that window, cancellation fees may apply.
+Pre-Orders 36: Release date changes do not extend cancellation windows.
+Pre-Orders 37: Pre-orders can be cancelled until 3 days before release.
+Pre-Orders 38: After that window, cancellation fees may apply.
+Pre-Orders 39: Release date changes do not extend cancellation windows.
+Pre-Orders 40: Pre-orders can be cancelled until 3 days before release.
+## Digital Products
+Digital Products 01: Digital purchases are cancellable prior to download or access.
+Digital Products 02: Once access is confirmed, cancellation is no longer available.
+Digital Products 03: Technical access issues are handled through support.
+Digital Products 04: Digital purchases are cancellable prior to download or access.
+Digital Products 05: Once access is confirmed, cancellation is no longer available.
+Digital Products 06: Technical access issues are handled through support.
+Digital Products 07: Digital purchases are cancellable prior to download or access.
+Digital Products 08: Once access is confirmed, cancellation is no longer available.
+Digital Products 09: Technical access issues are handled through support.
+Digital Products 10: Digital purchases are cancellable prior to download or access.
+Digital Products 11: Once access is confirmed, cancellation is no longer available.
+Digital Products 12: Technical access issues are handled through support.
+Digital Products 13: Digital purchases are cancellable prior to download or access.
+Digital Products 14: Once access is confirmed, cancellation is no longer available.
+Digital Products 15: Technical access issues are handled through support.
+Digital Products 16: Digital purchases are cancellable prior to download or access.
+Digital Products 17: Once access is confirmed, cancellation is no longer available.
+Digital Products 18: Technical access issues are handled through support.
+Digital Products 19: Digital purchases are cancellable prior to download or access.
+Digital Products 20: Once access is confirmed, cancellation is no longer available.
+Digital Products 21: Technical access issues are handled through support.
+Digital Products 22: Digital purchases are cancellable prior to download or access.
+Digital Products 23: Once access is confirmed, cancellation is no longer available.
+Digital Products 24: Technical access issues are handled through support.
+Digital Products 25: Digital purchases are cancellable prior to download or access.
+Digital Products 26: Once access is confirmed, cancellation is no longer available.
+Digital Products 27: Technical access issues are handled through support.
+Digital Products 28: Digital purchases are cancellable prior to download or access.
+Digital Products 29: Once access is confirmed, cancellation is no longer available.
+Digital Products 30: Technical access issues are handled through support.
+Digital Products 31: Digital purchases are cancellable prior to download or access.
+Digital Products 32: Once access is confirmed, cancellation is no longer available.
+Digital Products 33: Technical access issues are handled through support.
+Digital Products 34: Digital purchases are cancellable prior to download or access.
+Digital Products 35: Once access is confirmed, cancellation is no longer available.
+Digital Products 36: Technical access issues are handled through support.
+Digital Products 37: Digital purchases are cancellable prior to download or access.
+Digital Products 38: Once access is confirmed, cancellation is no longer available.
+Digital Products 39: Technical access issues are handled through support.
+Digital Products 40: Digital purchases are cancellable prior to download or access.
+## Refund Processing
+Refund Processing 01: Approved cancellations are refunded within 5-7 business days.
+Refund Processing 02: Refunds go to the original payment method.
+Refund Processing 03: Bank posting times may vary by provider.
+Refund Processing 04: Approved cancellations are refunded within 5-7 business days.
+Refund Processing 05: Refunds go to the original payment method.
+Refund Processing 06: Bank posting times may vary by provider.
+Refund Processing 07: Approved cancellations are refunded within 5-7 business days.
+Refund Processing 08: Refunds go to the original payment method.
+Refund Processing 09: Bank posting times may vary by provider.
+Refund Processing 10: Approved cancellations are refunded within 5-7 business days.
+Refund Processing 11: Refunds go to the original payment method.
+Refund Processing 12: Bank posting times may vary by provider.
+Refund Processing 13: Approved cancellations are refunded within 5-7 business days.
+Refund Processing 14: Refunds go to the original payment method.
+Refund Processing 15: Bank posting times may vary by provider.
+Refund Processing 16: Approved cancellations are refunded within 5-7 business days.
+Refund Processing 17: Refunds go to the original payment method.
+Refund Processing 18: Bank posting times may vary by provider.
+Refund Processing 19: Approved cancellations are refunded within 5-7 business days.
+Refund Processing 20: Refunds go to the original payment method.
+Refund Processing 21: Bank posting times may vary by provider.
+Refund Processing 22: Approved cancellations are refunded within 5-7 business days.
+Refund Processing 23: Refunds go to the original payment method.
+Refund Processing 24: Bank posting times may vary by provider.
+Refund Processing 25: Approved cancellations are refunded within 5-7 business days.
+Refund Processing 26: Refunds go to the original payment method.
+Refund Processing 27: Bank posting times may vary by provider.
+Refund Processing 28: Approved cancellations are refunded within 5-7 business days.
+Refund Processing 29: Refunds go to the original payment method.
+Refund Processing 30: Bank posting times may vary by provider.
+Refund Processing 31: Approved cancellations are refunded within 5-7 business days.
+Refund Processing 32: Refunds go to the original payment method.
+Refund Processing 33: Bank posting times may vary by provider.
+Refund Processing 34: Approved cancellations are refunded within 5-7 business days.
+Refund Processing 35: Refunds go to the original payment method.
+Refund Processing 36: Bank posting times may vary by provider.
+Refund Processing 37: Approved cancellations are refunded within 5-7 business days.
+Refund Processing 38: Refunds go to the original payment method.
+Refund Processing 39: Bank posting times may vary by provider.
+Refund Processing 40: Approved cancellations are refunded within 5-7 business days.
+## Account Credits
+Account Credits 01: Account credits may be offered as an alternative to refunds.
+Account Credits 02: Credits are valid for 12 months from issuance.
+Account Credits 03: Credits are non-transferable and not redeemable for cash.
+Account Credits 04: Account credits may be offered as an alternative to refunds.
+Account Credits 05: Credits are valid for 12 months from issuance.
+Account Credits 06: Credits are non-transferable and not redeemable for cash.
+Account Credits 07: Account credits may be offered as an alternative to refunds.
+Account Credits 08: Credits are valid for 12 months from issuance.
+Account Credits 09: Credits are non-transferable and not redeemable for cash.
+Account Credits 10: Account credits may be offered as an alternative to refunds.
+Account Credits 11: Credits are valid for 12 months from issuance.
+Account Credits 12: Credits are non-transferable and not redeemable for cash.
+Account Credits 13: Account credits may be offered as an alternative to refunds.
+Account Credits 14: Credits are valid for 12 months from issuance.
+Account Credits 15: Credits are non-transferable and not redeemable for cash.
+Account Credits 16: Account credits may be offered as an alternative to refunds.
+Account Credits 17: Credits are valid for 12 months from issuance.
+Account Credits 18: Credits are non-transferable and not redeemable for cash.
+Account Credits 19: Account credits may be offered as an alternative to refunds.
+Account Credits 20: Credits are valid for 12 months from issuance.
+Account Credits 21: Credits are non-transferable and not redeemable for cash.
+Account Credits 22: Account credits may be offered as an alternative to refunds.
+Account Credits 23: Credits are valid for 12 months from issuance.
+Account Credits 24: Credits are non-transferable and not redeemable for cash.
+Account Credits 25: Account credits may be offered as an alternative to refunds.
+Account Credits 26: Credits are valid for 12 months from issuance.
+Account Credits 27: Credits are non-transferable and not redeemable for cash.
+Account Credits 28: Account credits may be offered as an alternative to refunds.
+Account Credits 29: Credits are valid for 12 months from issuance.
+Account Credits 30: Credits are non-transferable and not redeemable for cash.
+Account Credits 31: Account credits may be offered as an alternative to refunds.
+Account Credits 32: Credits are valid for 12 months from issuance.
+Account Credits 33: Credits are non-transferable and not redeemable for cash.
+Account Credits 34: Account credits may be offered as an alternative to refunds.
+Account Credits 35: Credits are valid for 12 months from issuance.
+Account Credits 36: Credits are non-transferable and not redeemable for cash.
+Account Credits 37: Account credits may be offered as an alternative to refunds.
+Account Credits 38: Credits are valid for 12 months from issuance.
+Account Credits 39: Credits are non-transferable and not redeemable for cash.
+Account Credits 40: Account credits may be offered as an alternative to refunds.
+## Shipping Status
+Shipping Status 01: If an order has a tracking number, it is considered shipped.
+Shipping Status 02: Shipped orders can be returned under the refund policy.
+Shipping Status 03: Address changes are allowed before shipment only.
+Shipping Status 04: If an order has a tracking number, it is considered shipped.
+Shipping Status 05: Shipped orders can be returned under the refund policy.
+Shipping Status 06: Address changes are allowed before shipment only.
+Shipping Status 07: If an order has a tracking number, it is considered shipped.
+Shipping Status 08: Shipped orders can be returned under the refund policy.
+Shipping Status 09: Address changes are allowed before shipment only.
+Shipping Status 10: If an order has a tracking number, it is considered shipped.
+Shipping Status 11: Shipped orders can be returned under the refund policy.
+Shipping Status 12: Address changes are allowed before shipment only.
+Shipping Status 13: If an order has a tracking number, it is considered shipped.
+Shipping Status 14: Shipped orders can be returned under the refund policy.
+Shipping Status 15: Address changes are allowed before shipment only.
+Shipping Status 16: If an order has a tracking number, it is considered shipped.
+Shipping Status 17: Shipped orders can be returned under the refund policy.
+Shipping Status 18: Address changes are allowed before shipment only.
+Shipping Status 19: If an order has a tracking number, it is considered shipped.
+Shipping Status 20: Shipped orders can be returned under the refund policy.
+Shipping Status 21: Address changes are allowed before shipment only.
+Shipping Status 22: If an order has a tracking number, it is considered shipped.
+Shipping Status 23: Shipped orders can be returned under the refund policy.
+Shipping Status 24: Address changes are allowed before shipment only.
+Shipping Status 25: If an order has a tracking number, it is considered shipped.
+Shipping Status 26: Shipped orders can be returned under the refund policy.
+Shipping Status 27: Address changes are allowed before shipment only.
+Shipping Status 28: If an order has a tracking number, it is considered shipped.
+Shipping Status 29: Shipped orders can be returned under the refund policy.
+Shipping Status 30: Address changes are allowed before shipment only.
+Shipping Status 31: If an order has a tracking number, it is considered shipped.
+Shipping Status 32: Shipped orders can be returned under the refund policy.
+Shipping Status 33: Address changes are allowed before shipment only.
+Shipping Status 34: If an order has a tracking number, it is considered shipped.
+Shipping Status 35: Shipped orders can be returned under the refund policy.
+Shipping Status 36: Address changes are allowed before shipment only.
+Shipping Status 37: If an order has a tracking number, it is considered shipped.
+Shipping Status 38: Shipped orders can be returned under the refund policy.
+Shipping Status 39: Address changes are allowed before shipment only.
+Shipping Status 40: If an order has a tracking number, it is considered shipped.
+## Fraud Prevention
+Fraud Prevention 01: Multiple cancellations in short periods may be reviewed.
+Fraud Prevention 02: We reserve the right to deny abuse of cancellation policies.
+Fraud Prevention 03: Identity verification may be required for high-value orders.
+Fraud Prevention 04: Multiple cancellations in short periods may be reviewed.
+Fraud Prevention 05: We reserve the right to deny abuse of cancellation policies.
+Fraud Prevention 06: Identity verification may be required for high-value orders.
+Fraud Prevention 07: Multiple cancellations in short periods may be reviewed.
+Fraud Prevention 08: We reserve the right to deny abuse of cancellation policies.
+Fraud Prevention 09: Identity verification may be required for high-value orders.
+Fraud Prevention 10: Multiple cancellations in short periods may be reviewed.
+Fraud Prevention 11: We reserve the right to deny abuse of cancellation policies.
+Fraud Prevention 12: Identity verification may be required for high-value orders.
+Fraud Prevention 13: Multiple cancellations in short periods may be reviewed.
+Fraud Prevention 14: We reserve the right to deny abuse of cancellation policies.
+Fraud Prevention 15: Identity verification may be required for high-value orders.
+Fraud Prevention 16: Multiple cancellations in short periods may be reviewed.
+Fraud Prevention 17: We reserve the right to deny abuse of cancellation policies.
+Fraud Prevention 18: Identity verification may be required for high-value orders.
+Fraud Prevention 19: Multiple cancellations in short periods may be reviewed.
+Fraud Prevention 20: We reserve the right to deny abuse of cancellation policies.
+Fraud Prevention 21: Identity verification may be required for high-value orders.
+Fraud Prevention 22: Multiple cancellations in short periods may be reviewed.
+Fraud Prevention 23: We reserve the right to deny abuse of cancellation policies.
+Fraud Prevention 24: Identity verification may be required for high-value orders.
+Fraud Prevention 25: Multiple cancellations in short periods may be reviewed.
+Fraud Prevention 26: We reserve the right to deny abuse of cancellation policies.
+Fraud Prevention 27: Identity verification may be required for high-value orders.
+Fraud Prevention 28: Multiple cancellations in short periods may be reviewed.
+Fraud Prevention 29: We reserve the right to deny abuse of cancellation policies.
+Fraud Prevention 30: Identity verification may be required for high-value orders.
+Fraud Prevention 31: Multiple cancellations in short periods may be reviewed.
+Fraud Prevention 32: We reserve the right to deny abuse of cancellation policies.
+Fraud Prevention 33: Identity verification may be required for high-value orders.
+Fraud Prevention 34: Multiple cancellations in short periods may be reviewed.
+Fraud Prevention 35: We reserve the right to deny abuse of cancellation policies.
+Fraud Prevention 36: Identity verification may be required for high-value orders.
+Fraud Prevention 37: Multiple cancellations in short periods may be reviewed.
+Fraud Prevention 38: We reserve the right to deny abuse of cancellation policies.
+Fraud Prevention 39: Identity verification may be required for high-value orders.
+Fraud Prevention 40: Multiple cancellations in short periods may be reviewed.
+## Business Orders
+Business Orders 01: Bulk and B2B orders may have different cancellation terms.
+Business Orders 02: Contract terms override standard consumer cancellation rules.
+Business Orders 03: Contact your account manager for exceptions.
+Business Orders 04: Bulk and B2B orders may have different cancellation terms.
+Business Orders 05: Contract terms override standard consumer cancellation rules.
+Business Orders 06: Contact your account manager for exceptions.
+Business Orders 07: Bulk and B2B orders may have different cancellation terms.
+Business Orders 08: Contract terms override standard consumer cancellation rules.
+Business Orders 09: Contact your account manager for exceptions.
+Business Orders 10: Bulk and B2B orders may have different cancellation terms.
+Business Orders 11: Contract terms override standard consumer cancellation rules.
+Business Orders 12: Contact your account manager for exceptions.
+Business Orders 13: Bulk and B2B orders may have different cancellation terms.
+Business Orders 14: Contract terms override standard consumer cancellation rules.
+Business Orders 15: Contact your account manager for exceptions.
+Business Orders 16: Bulk and B2B orders may have different cancellation terms.
+Business Orders 17: Contract terms override standard consumer cancellation rules.
+Business Orders 18: Contact your account manager for exceptions.
+Business Orders 19: Bulk and B2B orders may have different cancellation terms.
+Business Orders 20: Contract terms override standard consumer cancellation rules.
+Business Orders 21: Contact your account manager for exceptions.
+Business Orders 22: Bulk and B2B orders may have different cancellation terms.
+Business Orders 23: Contract terms override standard consumer cancellation rules.
+Business Orders 24: Contact your account manager for exceptions.
+Business Orders 25: Bulk and B2B orders may have different cancellation terms.
+Business Orders 26: Contract terms override standard consumer cancellation rules.
+Business Orders 27: Contact your account manager for exceptions.
+Business Orders 28: Bulk and B2B orders may have different cancellation terms.
+Business Orders 29: Contract terms override standard consumer cancellation rules.
+Business Orders 30: Contact your account manager for exceptions.
+Business Orders 31: Bulk and B2B orders may have different cancellation terms.
+Business Orders 32: Contract terms override standard consumer cancellation rules.
+Business Orders 33: Contact your account manager for exceptions.
+Business Orders 34: Bulk and B2B orders may have different cancellation terms.
+Business Orders 35: Contract terms override standard consumer cancellation rules.
+Business Orders 36: Contact your account manager for exceptions.
+Business Orders 37: Bulk and B2B orders may have different cancellation terms.
+Business Orders 38: Contract terms override standard consumer cancellation rules.
+Business Orders 39: Contact your account manager for exceptions.
+Business Orders 40: Bulk and B2B orders may have different cancellation terms.
+## Contact Information
+Contact Information 01: Support is available Monday-Friday, 9am-5pm local time.
+Contact Information 02: Email cancellations: cancellations@example.com
+Contact Information 03: Phone support: +1-555-0101
+Contact Information 04: Support is available Monday-Friday, 9am-5pm local time.
+Contact Information 05: Email cancellations: cancellations@example.com
+Contact Information 06: Phone support: +1-555-0101
+Contact Information 07: Support is available Monday-Friday, 9am-5pm local time.
+Contact Information 08: Email cancellations: cancellations@example.com
+Contact Information 09: Phone support: +1-555-0101
+Contact Information 10: Support is available Monday-Friday, 9am-5pm local time.
+Contact Information 11: Email cancellations: cancellations@example.com
+Contact Information 12: Phone support: +1-555-0101
+Contact Information 13: Support is available Monday-Friday, 9am-5pm local time.
+Contact Information 14: Email cancellations: cancellations@example.com
+Contact Information 15: Phone support: +1-555-0101
+Contact Information 16: Support is available Monday-Friday, 9am-5pm local time.
+Contact Information 17: Email cancellations: cancellations@example.com
+Contact Information 18: Phone support: +1-555-0101
+Contact Information 19: Support is available Monday-Friday, 9am-5pm local time.
+Contact Information 20: Email cancellations: cancellations@example.com
+Contact Information 21: Phone support: +1-555-0101
+Contact Information 22: Support is available Monday-Friday, 9am-5pm local time.
+Contact Information 23: Email cancellations: cancellations@example.com
+Contact Information 24: Phone support: +1-555-0101
+Contact Information 25: Support is available Monday-Friday, 9am-5pm local time.
+Contact Information 26: Email cancellations: cancellations@example.com
+Contact Information 27: Phone support: +1-555-0101
+Contact Information 28: Support is available Monday-Friday, 9am-5pm local time.
+Contact Information 29: Email cancellations: cancellations@example.com
+Contact Information 30: Phone support: +1-555-0101
+Contact Information 31: Support is available Monday-Friday, 9am-5pm local time.
+Contact Information 32: Email cancellations: cancellations@example.com
+Contact Information 33: Phone support: +1-555-0101
+Contact Information 34: Support is available Monday-Friday, 9am-5pm local time.
+Contact Information 35: Email cancellations: cancellations@example.com
+Contact Information 36: Phone support: +1-555-0101
+Contact Information 37: Support is available Monday-Friday, 9am-5pm local time.
+Contact Information 38: Email cancellations: cancellations@example.com
+Contact Information 39: Phone support: +1-555-0101
+Contact Information 40: Support is available Monday-Friday, 9am-5pm local time.
