@@ -39,6 +39,8 @@ npm run dev
 
 Open http://localhost:3000. For **free local LLM** (no API quota), use Ollama: see [web/OLLAMA.md](web/OLLAMA.md).
 
+**Vercel (production):** Set `OPENAI_API_KEY` in project Environment Variables. To avoid 429 quota errors, add a **backup key**: `OPENAI_BACKUP_API_KEY` (second OpenAI key). When the primary key hits quota, the app automatically retries with the backup for both embeddings and chat.
+
 ---
 
 ## 2. Architecture overview

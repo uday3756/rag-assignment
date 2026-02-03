@@ -170,19 +170,47 @@ function getOpenAIConfig(): { apiKey: string; baseURL?: string } {
   return { apiKey };
 }
 
+function getBackupConfig(): { apiKey: string; baseURL?: string } | null {
+  const backupKey = process.env.OPENAI_BACKUP_API_KEY?.trim();
+  if (!backupKey) return null;
+  const backupBase = process.env.OPENAI_BACKUP_BASE_URL?.trim();
+  if (backupBase) return { apiKey: backupKey, baseURL: backupBase };
+  const baseURL = process.env.OPENAI_BASE_URL?.trim();
+  return { apiKey: backupKey, baseURL: baseURL || undefined };
+}
+
+function is429(error: unknown): boolean {
+  const msg = String(error);
+  return msg.includes("429") || msg.includes("quota");
+}
+
+async function embedWithConfig(
+  cfg: { apiKey: string; baseURL?: string },
+  batch: string[]
+): Promise<number[][]> {
+  const openai = new OpenAI(cfg);
+  const response = await openai.embeddings.create({
+    model: EMBEDDING_MODEL,
+    input: batch,
+  });
+  return response.data.map((item) => item.embedding);
+}
+
 async function embedTexts(texts: string[]): Promise<number[][]> {
   const config = getOpenAIConfig();
-  const openai = new OpenAI(config);
+  const backup = getBackupConfig();
   const embeddings: number[][] = [];
   const batchSize = 64;
   for (let i = 0; i < texts.length; i += batchSize) {
     const batch = texts.slice(i, i + batchSize);
-    const response = await openai.embeddings.create({
-      model: EMBEDDING_MODEL,
-      input: batch,
-    });
-    for (const item of response.data) {
-      embeddings.push(item.embedding);
+    try {
+      embeddings.push(...(await embedWithConfig(config, batch)));
+    } catch (err) {
+      if (is429(err) && backup) {
+        embeddings.push(...(await embedWithConfig(backup, batch)));
+      } else {
+        throw err;
+      }
     }
   }
   return embeddings;

@@ -70,6 +70,20 @@ function getOpenAIConfig(): { apiKey: string; baseURL?: string } {
   return { apiKey };
 }
 
+function getBackupConfig(): { apiKey: string; baseURL?: string } | null {
+  const backupKey = process.env.OPENAI_BACKUP_API_KEY?.trim();
+  if (!backupKey) return null;
+  const backupBase = process.env.OPENAI_BACKUP_BASE_URL?.trim();
+  if (backupBase) return { apiKey: backupKey, baseURL: backupBase };
+  const baseURL = process.env.OPENAI_BASE_URL?.trim();
+  return { apiKey: backupKey, baseURL: baseURL || undefined };
+}
+
+function is429(error: unknown): boolean {
+  const msg = String(error);
+  return msg.includes("429") || msg.includes("quota");
+}
+
 export async function POST(request: Request) {
   try {
     let config: { apiKey: string; baseURL?: string };
@@ -103,22 +117,36 @@ export async function POST(request: Request) {
     }
 
     const context = formatContext(chunks);
-    const openai = new OpenAI(config);
-    const response = await openai.chat.completions.create({
+    const backup = getBackupConfig();
+    const chatPayload = {
       model: CHAT_MODEL,
       messages: [
         {
-          role: "system",
+          role: "system" as const,
           content:
             "You are a careful policy assistant. Follow instructions strictly.",
         },
-        { role: "user", content: buildPrompt(question, context) },
+        { role: "user" as const, content: buildPrompt(question, context) },
       ],
       temperature: 0.2,
       max_tokens: 600,
-    });
-
-    const text = response.choices[0]?.message?.content || "";
+    };
+    let text = "";
+    let lastErr: unknown;
+    for (const cfg of [config, ...(backup ? [backup] : [])]) {
+      try {
+        const client = new OpenAI(cfg);
+        const res = await client.chat.completions.create(chatPayload);
+        const content = res.choices[0]?.message?.content;
+        text = typeof content === "string" ? content : "";
+        lastErr = null;
+        break;
+      } catch (err) {
+        lastErr = err;
+        if (!is429(err) || !backup) throw err;
+      }
+    }
+    if (lastErr) throw lastErr;
     const parsed = parseResponse(text);
     const topDistance = chunks[0]?.distance ?? 1;
     const fallbackSources = normalizeSources(chunks);
@@ -144,8 +172,9 @@ export async function POST(request: Request) {
 
     if (is429) {
       errorLabel = "OpenAI quota exceeded.";
-      detail =
-        "Use free local Ollama instead. In web/.env.local set: OPENAI_BASE_URL=http://localhost:11434/v1 and OPENAI_API_KEY=ollama. Install Ollama from https://ollama.com/download then run: ollama pull nomic-embed-text && ollama pull llama3.2. See web/OLLAMA.md.";
+      detail = process.env.OPENAI_BACKUP_API_KEY
+        ? "Primary and backup keys both hit quota. Add credits or try again later."
+        : "Add OPENAI_BACKUP_API_KEY in Vercel (second OpenAI key) for automatic fallback. Or use free local Ollama: see web/OLLAMA.md.";
     } else if (isConnectionFail) {
       const hint = process.env.OPENAI_BASE_URL
         ? " If using Ollama, start it (open Ollama app or run: ollama serve) and ensure you ran: ollama pull nomic-embed-text && ollama pull llama3.2"
