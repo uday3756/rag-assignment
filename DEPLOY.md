@@ -30,7 +30,8 @@ gh repo create rag-assignment --public --source=. --push
 1. Go to [vercel.com](https://vercel.com) and sign in (e.g. with GitHub).
 2. **Add New** → **Project**.
 3. Import the **rag-assignment** repository (or the repo you pushed to).
-4. **Root Directory:** click **Edit**, set to `web`, then **Continue**.
+4. **Root Directory:** click **Edit**, set to `web`, then **Continue**.  
+   **Important:** If you leave this blank, Vercel builds from the repo root. There is no Next.js app at the root (the app is in `web/`), so you get **404 NOT_FOUND**. Always set Root Directory to `web`.
 5. **Environment Variables:** add:
    - Name: `OPENAI_API_KEY`  
    - Value: your OpenAI API key  
