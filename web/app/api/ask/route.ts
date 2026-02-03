@@ -79,6 +79,30 @@ function getBackupConfig(): { apiKey: string; baseURL?: string } | null {
   return { apiKey: backupKey, baseURL: baseURL || undefined };
 }
 
+/** Groq free tier – backup for chat when OpenAI returns 429. No extra OpenAI key needed. */
+function getGroqConfig(): { apiKey: string; baseURL: string; model: string } | null {
+  const key = process.env.GROQ_API_KEY?.trim();
+  if (!key) return null;
+  return {
+    apiKey: key,
+    baseURL: "https://api.groq.com/openai/v1",
+    model: process.env.GROQ_CHAT_MODEL || "llama-3.1-8b-instant",
+  };
+}
+
+/** Ordered list: primary, backup key (if set), then Groq (free, if set). */
+function getChatConfigs(): Array<{ apiKey: string; baseURL?: string; model: string }> {
+  const primary = getOpenAIConfig();
+  const list: Array<{ apiKey: string; baseURL?: string; model: string }> = [
+    { ...primary, model: CHAT_MODEL },
+  ];
+  const backup = getBackupConfig();
+  if (backup) list.push({ ...backup, model: CHAT_MODEL });
+  const groq = getGroqConfig();
+  if (groq) list.push(groq);
+  return list;
+}
+
 function is429(error: unknown): boolean {
   const msg = String(error);
   return msg.includes("429") || msg.includes("quota");
@@ -117,33 +141,37 @@ export async function POST(request: Request) {
     }
 
     const context = formatContext(chunks);
-    const backup = getBackupConfig();
-    const chatPayload = {
-      model: CHAT_MODEL,
-      messages: [
-        {
-          role: "system" as const,
-          content:
-            "You are a careful policy assistant. Follow instructions strictly.",
-        },
-        { role: "user" as const, content: buildPrompt(question, context) },
-      ],
-      temperature: 0.2,
-      max_tokens: 600,
-    };
+    const chatConfigs = getChatConfigs();
+    const messages = [
+      {
+        role: "system" as const,
+        content:
+          "You are a careful policy assistant. Follow instructions strictly.",
+      },
+      { role: "user" as const, content: buildPrompt(question, context) },
+    ];
     let text = "";
     let lastErr: unknown;
-    for (const cfg of [config, ...(backup ? [backup] : [])]) {
+    for (const cfg of chatConfigs) {
       try {
-        const client = new OpenAI(cfg);
-        const res = await client.chat.completions.create(chatPayload);
+        const client = new OpenAI({
+          apiKey: cfg.apiKey,
+          baseURL: cfg.baseURL,
+        });
+        const res = await client.chat.completions.create({
+          model: cfg.model,
+          messages,
+          temperature: 0.2,
+          max_tokens: 600,
+        });
         const content = res.choices[0]?.message?.content;
         text = typeof content === "string" ? content : "";
         lastErr = null;
         break;
       } catch (err) {
         lastErr = err;
-        if (!is429(err) || !backup) throw err;
+        if (!is429(err)) throw err;
+        if (chatConfigs.indexOf(cfg) >= chatConfigs.length - 1) throw err;
       }
     }
     if (lastErr) throw lastErr;
@@ -172,9 +200,11 @@ export async function POST(request: Request) {
 
     if (is429) {
       errorLabel = "OpenAI quota exceeded.";
-      detail = process.env.OPENAI_BACKUP_API_KEY
-        ? "Primary and backup keys both hit quota. Add credits or try again later."
-        : "Add OPENAI_BACKUP_API_KEY in Vercel (second OpenAI key) for automatic fallback. Or use free local Ollama: see web/OLLAMA.md.";
+      const hasBackup =
+        process.env.OPENAI_BACKUP_API_KEY || process.env.GROQ_API_KEY;
+      detail = hasBackup
+        ? "All providers hit quota. Add credits or try again later."
+        : "Add GROQ_API_KEY in Vercel (free at console.groq.com) for automatic fallback when OpenAI hits quota. Or add OPENAI_BACKUP_API_KEY. See web/OLLAMA.md for local Ollama.";
     } else if (isConnectionFail) {
       const hint = process.env.OPENAI_BASE_URL
         ? " If using Ollama, start it (open Ollama app or run: ollama serve) and ensure you ran: ollama pull nomic-embed-text && ollama pull llama3.2"
